@@ -82,24 +82,10 @@ COPY .mvn .mvn
 COPY mvnw .
 RUN ./mvnw dependency:go-offline -B
 
-# copie du code source de l'application
-COPY src ./src
-RUN ./mvnw package
-FROM amazoncorretto:21-alpine
-LABEL authors="lucien"
-WORKDIR usr/src/app
-
-# 1. copie de pom.xml et maven pour l'installation des dépendances
-COPY pom.xml .
-COPY .mvn .mvn
-COPY mvnw .
-RUN ./mvnw dependency:go-offline -B
-
-# copie du code source de l'application
+# 2. copie du code source de l'application
 COPY src ./src
 RUN ./mvnw package
 
-ENTRYPOINT ["java", "-jar", "target/Java-app-0.0.1-SNAPSHOT.jar"]
 ENTRYPOINT ["java", "-jar", "target/Java-app-0.0.1-SNAPSHOT.jar"]
 ```
 ### illustration
