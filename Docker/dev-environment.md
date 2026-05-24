@@ -129,5 +129,11 @@ Avantages :
 ### Remarques ou Contributions :
 
 Pour tout apport ou correction à ce qui à été mentionner ici, veuillez me joindre au coordonnées suivantes :
-- mail : lucienkiemde4@gmail.com
-- [linkedin](www.linkedin.com/in/lucien-kiemde-a93179357)
+<div>
+   <a href="https://www.linkedin.com/in/lucien-kiemde-a93179357/">
+        <img src="https://img.shields.io/badge/LinkedIn-Lucien_KIEMDE-0A66C2?style=flat-square&logo=linkedin&logoColor=white" alt="LinkedIn" />
+    </a>
+    <a href="mailto:lucienkiemde4@gmail.com">
+        <img src="https://img.shields.io/badge/Gmail-lucienkiemde4@gmail.com-EA4335?style=flat-square&logo=gmail&logoColor=white" alt="Gmail" />
+    </a>
+</div>
